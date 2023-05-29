@@ -1,0 +1,22 @@
+{
+  "manifest_version": 2,
+  "name": "Google Scholar Results",
+  "version": "1.0",
+  "description": "Fetches and  displays google Scholar returned results and browser history",
+  "browser_action": {
+    "default_popup": "popup.html",
+    "default_icon": "icon.png"
+  },
+  "permissions": [
+    "history",
+    "tabs",
+    "http://*/*",
+    "https://*/*"
+  ],
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["popup.js"]
+    }
+  ]
+}

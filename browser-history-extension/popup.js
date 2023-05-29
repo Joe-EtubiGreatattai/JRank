@@ -46,4 +46,4 @@ function displayHistory(historyData) {
   
   // Fetch the browser history when the extension is loaded
   document.addEventListener('DOMContentLoaded', fetchBrowserHistory);
-  
+   

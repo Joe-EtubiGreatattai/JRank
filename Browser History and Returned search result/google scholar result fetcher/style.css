@@ -10,6 +10,8 @@ body {
     font-family: 'Source Sans Pro', sans-serif;
     padding: 10px;
     background: #fff;
+    width: 170vw;
+    height: 100vh;
 }
 
 h2 {
@@ -23,11 +25,7 @@ ul {
     overflow-y: scroll;
 }
 
-ul::-webkit-scrollbar {
-    display: none;
-  }
-
-.li {
+#history-list li {
     margin-bottom: 10px;
     border: 1px solid #ccc;
     padding: 10px;
@@ -35,7 +33,33 @@ ul::-webkit-scrollbar {
     color: #fff;
 }
 
+#results-list li {
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    background: purple;
+    color: #fff;
+}
+
+ul::-webkit-scrollbar {
+    display: none;
+}
+
+
+
 a {
-    color: #eee;
+    color: #fff;
     text-decoration: none;
+}
+
+
+.both-holder {
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+}
+
+
+.both-holder div {
+    width: 50%;
 }
