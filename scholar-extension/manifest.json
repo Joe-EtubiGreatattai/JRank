@@ -1,0 +1,16 @@
+{
+  "manifest_version": 2,
+  "name": "Google Scholar Results",
+  "version": "1.0",
+  "description": "Fetches, displays and send the Google Scholar search results to the python endpoint",
+  "browser_action": {
+    "default_popup": "popup.html",
+    "default_icon": "icon.png"
+  },
+  "permissions": [
+    "history",
+    "tabs",
+    "http://*/*",
+    "https://*/*"
+  ]
+}
