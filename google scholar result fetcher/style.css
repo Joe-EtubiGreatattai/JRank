@@ -10,6 +10,8 @@ body {
     font-family: 'Source Sans Pro', sans-serif;
     padding: 10px;
     background: #fff;
+    width: 90vw;
+    height: 90vh;
 }
 
 h2 {
@@ -31,11 +33,11 @@ li {
     margin-bottom: 10px;
     border: 1px solid #ccc;
     padding: 10px;
-    background: rgb(0, 0, 183);
+    background: purple;
     color: #fff;
 }
 
 a {
-    color: #eee;
+    color: #0066cc;
     text-decoration: none;
 }
