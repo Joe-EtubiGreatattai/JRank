@@ -27,7 +27,7 @@ ul::-webkit-scrollbar {
     display: none;
   }
 
-.li {
+li {
     margin-bottom: 10px;
     border: 1px solid #ccc;
     padding: 10px;
